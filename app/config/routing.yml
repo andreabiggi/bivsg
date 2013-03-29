@@ -1,0 +1,4 @@
+bix_user:
+    resource: "@BixUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
