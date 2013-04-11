@@ -1,0 +1,7 @@
+parameters:
+#    bix_sg.example.class: Bix\SgBundle\Example
+
+services:
+#    bix_sg.example:
+#        class: %bix_sg.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

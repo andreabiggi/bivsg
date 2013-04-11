@@ -1,0 +1,3 @@
+bix_sg_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: BixSgBundle:Default:index }

@@ -1,0 +1,56 @@
+<?php
+
+namespace Bix\CategoryBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collection\ArrayCollection;
+
+/**
+ * Category
+ *
+ * @ORM\Table(name="category")
+ * @ORM\Entity(repositoryClass="Bix\CategoryBundle\Entity\CategoryRepository")
+ */
+class Category
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="name", type="string", length=45)
+     */
+    private $name;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="slug", type="string", length=45)
+     */
+    private $slug;
+
+    /**
+     * @ORM\OneToMany(targetEntity="Category", mappedBy="parent")
+     */
+    private $children_category;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="Category", inversedBy="children_category")
+     * @ORM\JoinColumn(name="parent_id", referencedColumnName="id")
+     */
+    private $parent_category;
+
+    function __construct() 
+    {
+        $this->children_category = new ArrayCollection;
+    }
+
+
+}
