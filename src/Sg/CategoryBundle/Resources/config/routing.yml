@@ -1,0 +1,8 @@
+sg_category_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: SgCategoryBundle:Default:index }
+
+#Qui vanno importate a mano le rotte di BixCategoryBundle
+sg_category_prova:
+    pattern:  /prova
+    defaults: { _controller: SgCategoryBundle:Default:prova }

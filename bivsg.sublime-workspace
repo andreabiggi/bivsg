@@ -1,0 +1,984 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"C",
+				"Category"
+			],
+			[
+				"B",
+				"Bundle"
+			],
+			[
+				"Cate",
+				"CategoryBundle"
+			],
+			[
+				"R",
+				"RecursiveCategoryIterator"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"if",
+				"ifelse	if … else …"
+			],
+			[
+				"else",
+				"else	else"
+			],
+			[
+				"U",
+				"User"
+			],
+			[
+				"User",
+				"UserBundle"
+			],
+			[
+				"sfent",
+				"sfentityClass	Symfony2 / Entity / Entity class"
+			],
+			[
+				"sff",
+				"sfforward	Symfony2 / Controller / Forward"
+			],
+			[
+				"sfa",
+				"sfactiona	Symfony2 / Controller / Annotated action"
+			],
+			[
+				"sfcont",
+				"sfcontrollera	Symfony2 / Controller / Annotated controller class"
+			],
+			[
+				"arr",
+				"array"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/Bix/Bundle/CategoryBundle/Model/CategoryInterface.php",
+			"settings":
+			{
+				"buffer_size": 792,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Bix/Bundle/CategoryBundle/Model/Category.php",
+			"settings":
+			{
+				"buffer_size": 1997,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Model/User.php",
+			"settings":
+			{
+				"buffer_size": 11629,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Bix/Bundle/CategoryBundle/Entity/Category.php",
+			"settings":
+			{
+				"buffer_size": 244,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Bix/Bundle/CategoryBundle/Resources/config/doctrine/Category.orm.xml",
+			"settings":
+			{
+				"buffer_size": 629,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Model/UserInterface.php",
+			"settings":
+			{
+				"buffer_size": 4867,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Entity/User.php",
+			"settings":
+			{
+				"buffer_size": 388,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/doctrine/User.orm.xml",
+			"settings":
+			{
+				"buffer_size": 1817,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Sg/CategoryBundle/Entity/Category.php",
+			"settings":
+			{
+				"buffer_size": 1171,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Sg/CategoryBundle/Controller/DefaultController.php",
+			"settings":
+			{
+				"buffer_size": 666,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Sg/CategoryBundle/Resources/views/Default/prova.html.twig",
+			"settings":
+			{
+				"buffer_size": 140,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Sg/CategoryBundle/Resources/config/routing.yml",
+			"settings":
+			{
+				"buffer_size": 272,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Resources/views/base.html.twig",
+			"settings":
+			{
+				"buffer_size": 385,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lista.TODO",
+			"settings":
+			{
+				"buffer_size": 154,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 192.0,
+		"selected_items":
+		[
+			[
+				"block",
+				"Snippet: block"
+			],
+			[
+				"exten",
+				"Snippet: extends"
+			],
+			[
+				"twig",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"snippetac",
+				"Snippet: Symfony2 / Controller / Annotated action"
+			],
+			[
+				"interface",
+				"Snippet: Interface"
+			],
+			[
+				"",
+				"Set Syntax: PHP"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"folde",
+				"Project: Add Folder"
+			],
+			[
+				"snippcla",
+				"Snippet: Class Variable"
+			],
+			[
+				"snippet class",
+				"Snippet: Class Variable"
+			],
+			[
+				"snippclass",
+				"Snippet: class …"
+			],
+			[
+				"snipp",
+				"Snippet: <?php … ?>"
+			],
+			[
+				"togg",
+				"View: Toggle Side Bar"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"togge",
+				"View: Toggle Side Bar"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"copy",
+				"File: Copy Path From Project"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"syntatw",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"Snippet: const",
+				"Snippet: function __construct"
+			],
+			[
+				"Snippet: constr",
+				"Snippet: function __construct"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"symf",
+				"SymfonyCommander Select Route"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"conso",
+				"Set Syntax: R Console"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pacage",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Acme/DemoBundle/Resources/views/Demo/index.html.twig",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Acme/DemoBundle/Resources/views/layout.html.twig",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/MainBundle/Entity/Trip.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/CategoryBundle/Resources/config/routing.yml",
+		"/home/andrea/webdev/sf2_sites/bivsg/app/config/routing.yml",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/CategoryBundle/Entity/User.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/doctrine/Group.orm.xml",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Model/Category.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Model/User.php",
+		"/home/andrea/.config/sublime-text-2/Packages/PlainTasks/PlainTasks (Linux).sublime-settings",
+		"/home/andrea/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/andrea/.config/sublime-text-2/Packages/PlainTasks/messages/Tutorial.todo",
+		"/home/andrea/webdev/sf2_sites/bivsg/lista.TODO",
+		"/home/andrea/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/andrea/webdev/sf2_sites/bivsg/app/AppKernel.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/app/config/config.yml",
+		"/home/andrea/webdev/sf2_sites/bivsg/app/config/parameters.yml",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/CategoryBundle/Model/CategoryInterface.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/doctrine/User.orm.xml",
+		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Entity/User.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Model/UserInterface.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Doctrine/UserManager.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/CategoryBundle/Resources/config/routing.yml",
+		"/home/andrea/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/andrea/webdev/sf2_sites/bivsg/app/config/routing_dev.yml",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/CategoryBundle/SgCategoryBundle.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/CategoryBundle/Resources/config/routing/category.yml",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/CategoryBundle/Entity/Category.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/CategoryBundle/Controller/CategoryController.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/CategoryBundle/Entity/Category.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/CategoryBundle/Model/Category.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/CategoryBundle/Resources/config/services.yml",
+		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Entity/UserManager.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Model/UserManager.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/CategoryBundle/Form/CategoryType.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/CategoryBundle/Resources/views/Category/new.html.twig",
+		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Document/User.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/CouchDocument/UserListener.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/DependencyInjection/Compiler/ValidationPass.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/DependencyInjection/Configuration.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/UserBundle/Resources/config/routing.yml",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/UserBundle/SgUserBundle.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/UserBundle/Entity/User.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/UserBundle/Resources/views/layout.html.twig",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/UserBundle/Resources/views/Default/index.html.twig",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/UserBundle/Resources/config/routing.yml",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/UserBundle/Resources/config/services.yml",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/UserBundle/Resources/config/services.yml",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/UserBundle/BixUserBundle.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/UserBundle/Entity/User.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/CategoryBundle/Resources/views/Category/index.html.twig",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/CategoryBundle/Entity/RecursiveCategoryIterator.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/CategoryBundle/Entity/CategoryRepository.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Model/GroupableInterface.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/UserBundle/Controller/DefaultController.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Controller/RegistrationController.php",
+		"/home/andrea/.config/sublime-text-2/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/home/andrea/webdev/sf2_sites/bivsg/app/Resources/views/base.html.twig",
+		"/home/andrea/webdev/sf2_sites/lista.TODO",
+		"/home/andrea/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/home/andrea/.config/sublime-text-2/Packages/User/Default (Windows).sublime-keymap",
+		"/home/andrea/.config/sublime-text-2/Packages/User/Default (OSX).sublime-keymap",
+		"/home/andrea/webdev/sf2_sites/bivsg/web/css/styles.css",
+		"/home/andrea/webdev/sf2_sites/bivsg/web/styles.css",
+		"/home/andrea/.config/sublime-text-2/Packages/User/php/hello.sublime-snippet",
+		"/home/andrea/.config/sublime-text-2/Packages/AdvancedNewFile/README.md",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/UserBundle/Resources/views/Default/index.html.twig",
+		"/home/andrea/webdev/sf2_sites/bivsg/bivsg.sublime-project",
+		"/home/andrea/webdev/sf2_sites/bivsg/web/app_dev.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/web/app.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/app/config/security.yml",
+		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/FOSUserBundle.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/composer.json",
+		"/home/andrea/webdev/sf2_sites/bivsg/app/config/parameters.yml.dist",
+		"/home/andrea/webdev/sf2_sites/bivsg/app/config/config_dev.yml",
+		"/home/andrea/webdev/sf2_sites/bivsg/.gitignore",
+		"/home/andrea/webdev/sf2_sites/bivsg/README.md",
+		"/home/andrea/.mplayer/config",
+		"/home/andrea/webdev/sf2_sites/prova_sf2/src/Acme/DemoBundle/Controller/BlogController.php",
+		"/home/andrea/webdev/sf2_sites/prova_sf2/src/Acme/StoreBundle/Controller/DefaultController.php",
+		"/home/andrea/.config/sublime-text-2/Packages/Terminal/Terminal.sublime-settings",
+		"/home/andrea/.config/sublime-text-2/Packages/Terminal/Default (Linux).sublime-keymap",
+		"/home/andrea/.config/sublime-text-2/Packages/User/Terminal.sublime-settings",
+		"/home/andrea/webdev/sf2_sites/prova_sf2/src/Acme/StoreBundle/Resources/views/Default/show.html.twig",
+		"/home/andrea/.config/sublime-text-2/Packages/User/SymfonyCommander.sublime-settings",
+		"/home/andrea/.config/sublime-text-2/Packages/SymfonyCommander/SymfonyCommander.sublime-settings",
+		"/home/andrea/.config/sublime-text-2/Packages/User/Package Control.sublime-settings",
+		"/home/andrea/webdev/sf2_sites/prova_sf2/vendor/swiftmailer/swiftmailer/test-suite/lib/simpletest/packages/simpletest.org/test/package/fr/no-synchronisation.xml",
+		"/home/andrea/webdev/sf2_sites/prova_sf2/.project",
+		"/home/andrea/webdev/sf2_sites/prova_sf2/README.md",
+		"/home/andrea/fafa.html",
+		"/home/andrea/webdev/sf2_sites/prova_sf2/vendor/phpoption/phpoption/src/PhpOption/Option.php",
+		"/home/andrea/webdev/sf2_sites/prova_sf2/vendor/symfony/symfony/src/Symfony/Component/Templating/Asset/Package.php",
+		"/home/andrea/webdev/sf2_sites/prova_sf2/composer.json",
+		"/home/andrea/webdev/sf2_sites/prova_sf2/app/Resources/views/base.html.twig",
+		"/home/andrea/webdev/sf2_sites/prova_sf2/.travis.yml",
+		"/home/andrea/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/andrea/webdev/sf2_sites/prova_sf2/app/cache/dev/jms_diextra/controller_injectors/AcmeDemoBundleControllerDemoController.php",
+		"/home/andrea/.config/sublime-text-2/Packages/User/PHP.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n    ",
+			"getgroups",
+			"Groups",
+			"groups",
+			"Groups",
+			"groups",
+			"Groups",
+			"groups",
+			"$groups",
+			"@",
+			"arraycolle",
+			"category",
+			"private",
+			"protected",
+			";\n",
+			"FOS",
+			"fos",
+			"FOS",
+			"fos",
+			"FOS",
+			"fos",
+			"FOS",
+			"fos",
+			"FOS",
+			"fos",
+			"FOS",
+			"fos",
+			"FOS",
+			"fos",
+			"function"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 13,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/Bix/Bundle/CategoryBundle/Model/CategoryInterface.php",
+					"settings":
+					{
+						"buffer_size": 792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								539,
+								539
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/Bix/Bundle/CategoryBundle/Model/Category.php",
+					"settings":
+					{
+						"buffer_size": 1997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1754,
+								1754
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1860.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Model/User.php",
+					"settings":
+					{
+						"buffer_size": 11629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10848,
+								10848
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7917.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/Bix/Bundle/CategoryBundle/Entity/Category.php",
+					"settings":
+					{
+						"buffer_size": 244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								243,
+								243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/Bix/Bundle/CategoryBundle/Resources/config/doctrine/Category.orm.xml",
+					"settings":
+					{
+						"buffer_size": 629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								583,
+								583
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Model/UserInterface.php",
+					"settings":
+					{
+						"buffer_size": 4867,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1043,
+								1043
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 181.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Entity/User.php",
+					"settings":
+					{
+						"buffer_size": 388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								379,
+								379
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/doctrine/User.orm.xml",
+					"settings":
+					{
+						"buffer_size": 1817,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								383,
+								383
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/Sg/CategoryBundle/Entity/Category.php",
+					"settings":
+					{
+						"buffer_size": 1171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1169,
+								1169
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/Sg/CategoryBundle/Controller/DefaultController.php",
+					"settings":
+					{
+						"buffer_size": 666,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								654,
+								654
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/Sg/CategoryBundle/Resources/views/Default/prova.html.twig",
+					"settings":
+					{
+						"buffer_size": 140,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								140,
+								140
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/Sg/CategoryBundle/Resources/config/routing.yml",
+					"settings":
+					{
+						"buffer_size": 272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/Resources/views/base.html.twig",
+					"settings":
+					{
+						"buffer_size": 385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								385,
+								385
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "lista.TODO",
+					"settings":
+					{
+						"buffer_size": 154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SymfonyCommander":
+	{
+		"height": 196.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"services.yml",
+				"src/Bix/CategoryBundle/Resources/config/services.yml"
+			],
+			[
+				"groupable",
+				"vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Model/GroupableInterface.php"
+			],
+			[
+				"lista",
+				"lista.TODO"
+			],
+			[
+				"defaul",
+				"src/Bix/UserBundle/Controller/DefaultController.php"
+			],
+			[
+				"config",
+				"app/config/config.yml"
+			],
+			[
+				"storebundefaultcontroll",
+				"src/Acme/StoreBundle/Controller/DefaultController.php"
+			],
+			[
+				"packageconro",
+				"vendor/swiftmailer/swiftmailer/test-suite/lib/simpletest/packages/simpletest.org/test/package/fr/no-synchronisation.xml"
+			],
+			[
+				"",
+				".project"
+			],
+			[
+				"popopopopopop",
+				"vendor/phpoption/phpoption/src/PhpOption/Option.php"
+			],
+			[
+				"package",
+				"vendor/symfony/symfony/src/Symfony/Component/Templating/Asset/Package.php"
+			],
+			[
+				"acmedemocontroller",
+				"app/cache/dev/jms_diextra/controller_injectors/AcmeDemoBundleControllerDemoController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 315.0,
+	"status_bar_visible": true
+}

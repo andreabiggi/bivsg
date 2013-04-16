@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/andrea/webdev/sf2_sites/bivsg"
+		}
+	],
+
+	"settings": {
+		"xdebug": { "url": "http://bivsg/web/app_dev.php" }
+	}
+}

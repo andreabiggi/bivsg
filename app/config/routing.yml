@@ -1,11 +1,15 @@
-bix_sg:
-    resource: "@BixSgBundle/Resources/config/routing.yml"
+# sg_category:
+#     resource: "@SgCategoryBundle/Resources/config/routing.yml"
+#     prefix:   /admin/category
+
+sg_main:
+    resource: "@SgMainBundle/Resources/config/routing.yml"
     prefix:   /
 
-bix_category:
-    resource: "@BixCategoryBundle/Resources/config/routing.yml"
+sg_user:
+    resource: "@SgUserBundle/Resources/config/routing.yml"
     prefix:   /
 
-bix_user:
-    resource: "@BixUserBundle/Resources/config/routing.yml"
+sg_category:
+    resource: "@SgCategoryBundle/Resources/config/routing.yml"
     prefix:   /
