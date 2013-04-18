@@ -126,4 +126,11 @@ abstract class Category implements CategoryInterface
 
         return $names;
     }
+
+    public function setParent($parent)
+    {
+        $this->parent = $parent;
+
+        return $this;
+    }
 }
