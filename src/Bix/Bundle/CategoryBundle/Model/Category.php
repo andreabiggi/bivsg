@@ -2,7 +2,7 @@
 
 namespace Bix\Bundle\CategoryBundle\Model;
 
-use Doctrine\Common\Collections\Collection;
+// use Doctrine\Common\Collections\Collection;
 use Doctrine\Common\Collections\ArrayCollection;
 
 /**
@@ -38,9 +38,12 @@ abstract class Category implements CategoryInterface
      */
     protected $childrens;
     
+    /**
+     * Initialize children categories as ArrayCollections
+     */
     function __construct()
     {
-        # code...
+        $this->childrens = new ArrayCollection;
     }
 
     /**
@@ -105,7 +108,8 @@ abstract class Category implements CategoryInterface
     }
 
     /**
-     * Get childrens collections;
+     * Get childrens collections
+     * 
      * @return ArrayCollection 
      */
     public function getChildrens()

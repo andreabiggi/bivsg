@@ -14,12 +14,9 @@ class DefaultController extends Controller
 
     public function provaAction()
     {
-        $pizza = $this->getDoctrine()
-            ->getRepository('SgCategoryBundle:Category')
-            ->find(1);
+        $cm = $this->get('bix_category.category_manager');
+        $allCat = $cm->findCategories();
 
-        $nomiPizze = $pizza->getChildrenNames();
-
-        return $this->render('SgCategoryBundle:Default:prova.html.twig', array('nomiPizze' => $nomiPizze));
+        return $this->render('SgCategoryBundle:Default:prova.html.twig', array('allCat' => $allCat));
     }
 }

@@ -3,5 +3,7 @@
 {% block title %}Prova Categorie{% endblock %}
 
 {% block body %}
-    {{ dump(nomiPizze) }}
+    {% for cat in allCat %}
+        {{ dump(cat.name) }}
+    {% endfor %}
 {% endblock %}
