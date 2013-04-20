@@ -6,4 +6,14 @@
     {% for cat in allCat %}
         {{ dump(cat.name) }}
     {% endfor %}
+-----------------------------------
+    {% for pizzaChildren in pizzaChildrens %}
+        {{ dump(pizzaChildren.name) }}
+    {% endfor %}
+
+    -----------------------------------
+    {% for pizzaRecursiveChildren in pizzaRecursiveChildrens %}
+        {{ dump(pizzaRecursiveChildren.name) }}
+    {% endfor %}
+
 {% endblock %}

@@ -117,6 +117,10 @@ abstract class Category implements CategoryInterface
         return $this->childrens ?: $this->childrens = new ArrayCollection;
     }
 
+    /**
+     * Get an array of children names
+     * @return mixt
+     */
     public function getChildrenNames()
     {
         $names = array();
@@ -127,10 +131,17 @@ abstract class Category implements CategoryInterface
         return $names;
     }
 
+    /**
+     * Set the category's parent
+     * 
+     * @param Category $parent
+     */
     public function setParent($parent)
     {
         $this->parent = $parent;
 
         return $this;
     }
+
+
 }

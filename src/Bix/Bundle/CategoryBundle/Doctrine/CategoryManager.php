@@ -15,6 +15,8 @@ use Bix\Bundle\CategoryBundle\Model\CategoryManager as BaseCategoryManager;
 use Bix\Bundle\CategoryBundle\Model\CategoryManagerInterface;
 use Doctrine\ORM\EntityManager;
 use Bix\Bundle\CategoryBundle\Model\CategoryInterface;
+use Bix\Bundle\CategoryBundle\Entity\RecursiveCategoryIterator;
+use Doctrine\Common\Collections\Collection;
 
 /**
 *   
@@ -72,6 +74,16 @@ class CategoryManager extends BaseCategoryManager
     /**
      * {@inheritDoc}
      */
+    public function findCategoryCollectionBy(array $criteria)
+    {
+        //******************************************
+        $cat = $this->repository->findBy($criteria);
+        return new Collection($cat);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
     public function findCategories()
     {
         return $this->repository->findAll();
@@ -93,6 +105,27 @@ class CategoryManager extends BaseCategoryManager
         $this->entityManager->persist($category);
         if ($andFlush) {
             $this->entityManager->flush();
+        }
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getChildrensOf(CategoryInterface $category)
+    {
+        return $category->getChildrens();
+    }
+
+    public function getChildrensRecursiveOf($parent)
+    {
+        $childrens = array();
+
+        $collection = new ArrayCollection($parent);
+        $recursiveIterator = new RecursiveCategoryIterator($collection);
+        $recursiveIteratorIterator = new \recursiveIteratorIterator($recursiveIterator);
+
+        foreach ($recursiveIteratorIterator as $index => $item) {
+            $childrens[] = $item;
         }
     }
 }

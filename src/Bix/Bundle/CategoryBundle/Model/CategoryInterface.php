@@ -44,6 +44,25 @@ interface CategoryInterface
      * @return self
      */
     public function setSlug($slug);
+
+    /**
+     * Set the category's parent
+     * @param Category $parent
+     */
+    public function setParent($parent);
+
+    /**
+     * Get childrens collections
+     * 
+     * @return ArrayCollection 
+     */
+    public function getChildrens();
+
+    /**
+     * Get an array of children names
+     * @return mixt
+     */
+    public function getChildrenNames();
     
     
 } // END interface CategoryInterface

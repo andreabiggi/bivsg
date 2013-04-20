@@ -89,6 +89,10 @@ interface CategoryManagerInterface
      */
     public function updateCategory(CategoryInterface $category);
 
-
-
+    /**
+     * Get the childrens of category paremeters
+     * @param  CategoryInterface $category
+     * @return ArrayCollection
+     */
+    public function getChildrensOf(CategoryInterface $category);
 } 

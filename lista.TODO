@@ -1,8 +1,9 @@
 BixCategoryBundle:
  ☐ Il routing non è presente
  ✔ Integrato sistema categorie @done (13-04-15 17:32)
- ☐ Creare CategoryManager
+ ✔ Creare CategoryManager @done (13-04-19 10:51)
  ✔ Scrivere documentazione @done (13-04-16 10:36)
  ☐ Scrivere tests
+ ☐ Verificare iteratori ricorsivi
  
  

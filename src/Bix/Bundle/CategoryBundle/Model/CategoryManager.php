@@ -36,4 +36,9 @@ abstract class CategoryManager implements CategoryManagerInterface
     {
         return $this->findCategoryBy(array('slug' => $slug));
     }
+
+    public function findCategoryCollectionBySlug($slug)
+    {
+        return $this->findCategoryCollectionBy(array('slug' => $slug));
+    }
 }

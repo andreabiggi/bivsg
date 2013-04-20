@@ -4,6 +4,7 @@ namespace Sg\CategoryBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sg\CategoryBundle\Entity\Category;
+use Doctrine\Common\Collections\Collection;
 
 class DefaultController extends Controller
 {
@@ -18,17 +19,34 @@ class DefaultController extends Controller
 
         $cm = $this->get('bix_category.category_manager');
 
-        $parent = $cm->findCategoryBySlug('pizza');
+        $parent = $cm->findCategoryBySlug('margherita');
 
-        $marinara = $cm->createCategory();
-        $marinara->setName('Marinara due');
-        $marinara->setSlug('marinara_due');
-        $marinara->setParent($parent);
+        $bianca = $cm->createCategory();
+        $bianca->setName('bianca');
+        $bianca->setSlug('bianca');
+        $bianca->setParent($parent);
+        $cm->updateCategory($bianca);
 
-        $cm->updateCategory($marinara, true);
+        $rossa = $cm->createCategory();
+        $rossa->setName('rossa');
+        $rossa->setSlug('rossa');
+        $rossa->setParent($parent);
+
+        $cm->updateCategory($rossa, true);
 
         $allCat = $cm->findCategories();
 
-        return $this->render('SgCategoryBundle:Default:prova.html.twig', array('allCat' => $allCat));
+        $pizza = $cm->findCategoryBySlug('pizza');
+        $pizzaChildrens = $cm->getChildrensOf($pizza);
+
+        $pizza = $cm->findCategoryBySlug('pizza');
+
+        $pizzaRecursiveChildrens = $cm->getChildrensRecursiveOf($pizza);
+
+        return $this->render('SgCategoryBundle:Default:prova.html.twig', array(
+                'allCat' => $allCat,
+                'pizzaChildrens' => $pizzaChildrens,
+                'pizzaRecursiveChildrens' => $pizzaRecursiveChildrens,
+            ));
     }
 }
