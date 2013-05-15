@@ -42,14 +42,9 @@ use Doctrine\Common\Collections\Collection;
          return $this->_data->key();
      }
      
-     // public function valid()
-     // {
-     //      return $this->_data->current() instanceof Bix\Bundle\CategoryBundle\Model\Category;
-     // }
-
      public function valid()
      {
-          return $this->_data->containsKey($this->_data->key());
+          return $this->_data->current() instanceof Bix\Bundle\CategoryBundle\Entity\Category;
      }
      
      public function rewind()

@@ -37,8 +37,6 @@ class CategoryManager extends BaseCategoryManager
      */
     public function __construct(EntityManager $em, $class)
     {
-        //parent::__construct();
-
         $this->entityManager = $em;
         $this->repository = $em->getRepository($class);
 
@@ -109,23 +107,56 @@ class CategoryManager extends BaseCategoryManager
     }
 
     /**
-     * {@inheritDoc}
+     * The first Childrens of $category
      */
     public function getChildrensOf(CategoryInterface $category)
     {
         return $category->getChildrens();
     }
 
-    public function getChildrensRecursiveOf($parent)
+    /**
+     * Get the category roots
+     * @return Category
+     */
+    public function getRoots()
     {
-        $childrens = array();
+        return $this->repository->findByParent(NULL);
+    }
 
-        $collection = new ArrayCollection($parent);
-        $recursiveIterator = new RecursiveCategoryIterator($collection);
-        $recursiveIteratorIterator = new \recursiveIteratorIterator($recursiveIterator);
-
-        foreach ($recursiveIteratorIterator as $index => $item) {
-            $childrens[] = $item;
+    public function hasChildren(CategoryInterface $category)
+    {
+        if ($category->getChildrens()->isEmpty()) {
+            return FALSE;
+        } else {
+            return TRUE;
         }
     }
+
+    public function buildCategoryList()
+    {
+        $string = '<ul>';
+        $roots = $this->getRoots();
+        foreach ($roots as $root) {
+            $string .= '<li>' . $root->getName() . '</li>';
+            if ($this->hasChildren($root)) {
+                // Get the childrens of root
+                $childrens = $this->getChildrensOf($root);
+                $string .= '<ul>';
+                foreach ($childrens as $children) {
+                    $string .= '<li>' . $children->getName() . '</li>';
+                }
+                $string .= '</ul>';
+            }
+        }
+        $string .= '</ul>';
+        return $string;
+    }
+
+    public function countLevels()
+    {
+        $count = 0;
+        
+        return $count;
+    }
+
 }

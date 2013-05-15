@@ -8,7 +8,8 @@
 
 namespace Bix\Bundle\CategoryBundle\Model;
 
-interface CategoryInterface
+interface CategoryInterface 
+
 {
     /**
      * @return string

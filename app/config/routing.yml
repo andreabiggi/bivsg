@@ -1,3 +1,7 @@
+acme_prova:
+    resource: "@AcmeProvaBundle/Resources/config/routing.yml"
+    prefix:   /
+
 # sg_category:
 #     resource: "@SgCategoryBundle/Resources/config/routing.yml"
 #     prefix:   /admin/category

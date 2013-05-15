@@ -4,12 +4,44 @@
 		"selected_items":
 		[
 			[
-				"pizza",
-				"pizzaArray"
+				"cat",
+				"catList"
+			],
+			[
+				"ch",
+				"children"
+			],
+			[
+				"getC",
+				"getChildrensOf"
+			],
+			[
+				"roo",
+				"root"
 			],
 			[
 				"pi",
-				"pizzaCollection"
+				"pizzaChildrens"
+			],
+			[
+				"Cater",
+				"CategoryBundle"
+			],
+			[
+				"Bix",
+				"BixCategoryBundle"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"Fo",
+				"FormBuilder"
+			],
+			[
+				"pizza",
+				"pizzaArray"
 			],
 			[
 				"re",
@@ -112,42 +144,10 @@
 	"buffers":
 	[
 		{
-			"file": "vendor/doctrine/common/lib/Doctrine/Common/Collections/Collection.php",
-			"settings":
-			{
-				"buffer_size": 8269,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/Bix/Bundle/CategoryBundle/Entity/RecursiveCategoryIterator.php",
-			"settings":
-			{
-				"buffer_size": 1204,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/Bix/Bundle/CategoryBundle/Model/CategoryInterface.php",
-			"settings":
-			{
-				"buffer_size": 1154,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "src/Bix/Bundle/CategoryBundle/Model/Category.php",
 			"settings":
 			{
 				"buffer_size": 2383,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/Bix/Bundle/CategoryBundle/Model/CategoryManagerInterface.php",
-			"settings":
-			{
-				"buffer_size": 2286,
 				"line_ending": "Unix"
 			}
 		},
@@ -163,7 +163,31 @@
 			"file": "src/Bix/Bundle/CategoryBundle/Doctrine/CategoryManager.php",
 			"settings":
 			{
-				"buffer_size": 3049,
+				"buffer_size": 3733,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Bix/Bundle/CategoryBundle/Controller/CategoryController.php",
+			"settings":
+			{
+				"buffer_size": 1624,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Bix/Bundle/CategoryBundle/Resources/views/Category/catMenu.html.twig",
+			"settings":
+			{
+				"buffer_size": 204,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Bix/Bundle/CategoryBundle/Resources/views/Category/index.html.twig",
+			"settings":
+			{
+				"buffer_size": 278,
 				"line_ending": "Unix"
 			}
 		},
@@ -176,18 +200,18 @@
 			}
 		},
 		{
-			"file": "src/Sg/CategoryBundle/Resources/views/Default/prova.html.twig",
+			"file": "src/Bix/Bundle/CategoryBundle/Entity/RecursiveCategoryIterator.php",
 			"settings":
 			{
-				"buffer_size": 497,
+				"buffer_size": 1084,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "lista.TODO",
+			"file": "src/Sg/CategoryBundle/Resources/config/routing.yml",
 			"settings":
 			{
-				"buffer_size": 257,
+				"buffer_size": 593,
 				"line_ending": "Unix"
 			}
 		}
@@ -198,6 +222,10 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
 			[
 				"snippet func",
 				"Snippet: function …"
@@ -333,10 +361,6 @@
 			[
 				"pacage",
 				"Package Control: List Packages"
-			],
-			[
-				"packa",
-				"Package Control: Enable Package"
 			]
 		],
 		"width": 575.0
@@ -356,24 +380,60 @@
 	},
 	"file_history":
 	[
+		"/home/andrea/webdev/sf2_sites/bivsg/app/cache/dev/annotations/Doctrine-ORM-EntityRepository#getEntityName.cache.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/CategoryBundle/Resources/config/routing.yml",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Resources/views/Category/fava.html.twig",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Entity/RecursiveCategoryIterator.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Resources/views/Category/new.html.twig",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Entity/Category.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Form/Type/RegistrationFormType.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Form/Type/CategoryFormType.php",
 		"/home/andrea/webdev/sf2_sites/bivsg/app/config/config.yml",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Form/Type/CategoryType.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/app/config/routing.yml",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Controller/CategoryController.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Controller/RegistrationController.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Model/Category.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Form/Handler/RegistrationFormHandler.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Acme/ProvaBundle/Controller/CategoryController.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Acme/ProvaBundle/Form/CategoryType.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Acme/ProvaBundle/Entity/Category.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/CategoryBundle/Entity/Category.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Resources/config/doctrine/Category.orm.xml",
+		"/home/andrea/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Resources/doc/index.md",
+		"/home/andrea/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/andrea/.config/sublime-text-2/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/home/andrea/webdev/sf2_sites/bivsg/attuale_organizzazione.md",
+		"/home/andrea/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/andrea/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/andrea/.config/sublime-text-2/Packages/User/Distraction Free.sublime-settings",
+		"/home/andrea/.config/sublime-text-2/Packages/User/JSON.sublime-settings",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/CategoryBundle/Controller/DefaultController.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Doctrine/CategoryManager.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Model/CategoryManager.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Model/CategoryManagerInterface.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/lista.TODO",
+		"/home/andrea/.config/sublime-text-2/Packages/User/Plain text.sublime-settings",
+		"/home/andrea/.config/sublime-text-2/Packages/View In Browser/View In Browser.sublime-settings",
+		"/home/andrea/.config/sublime-text-2/Packages/User/View In Browser.sublime-settings",
+		"/home/andrea/.config/sublime-text-2/Packages/User/MarkdownPreview.sublime-settings",
+		"/home/andrea/webdev/sf2_sites/bivsg/attuale_organizzazione.txt",
+		"/home/andrea/webdev/sf2_sites/bivsg/attale_organizzazione.txt",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/CategoryBundle/Resources/views/Default/prova.html.twig",
+		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Model/CategoryInterface.php",
+		"/home/andrea/webdev/sf2_sites/bivsg/vendor/doctrine/common/lib/Doctrine/Common/Collections/Collection.php",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Doctrine/UserManager.php",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Model/UserManager.php",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Model/UserManagerInterface.php",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Model/User.php",
-		"/home/andrea/webdev/sf2_sites/bivsg/lista.TODO",
-		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Model/CategoryInterface.php",
-		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Model/Category.php",
 		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/CategoryBundle/Resources/config/services.yml",
 		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Resources/config/services.yml",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/doctrine/orm/lib/Doctrine/ORM/EntityManager.php",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/DependencyInjection/FOSUserExtension.php",
 		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/DependencyInjection/BixCategoryExtension.php",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/registration.xml",
-		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Controller/RegistrationController.php",
-		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Form/Handler/RegistrationFormHandler.php",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/doctrine/common/lib/Doctrine/Common/Persistence/ObjectManager.php",
-		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Form/Type/RegistrationFormType.php",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/routing/registration.xml",
 		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/UserBundle/Resources/config/routing.yml",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/routing/group.xml",
@@ -383,34 +443,19 @@
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Registration/register_content.html.twig",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/layout.html.twig",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Registration/confirmed.html.twig",
-		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/CategoryBundle/Controller/DefaultController.php",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/doctrine/common/lib/Doctrine/Common/Collections/ArrayCollection.php",
-		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/CategoryBundle/Resources/views/Default/prova.html.twig",
-		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/CategoryBundle/Entity/Category.php",
-		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Resources/config/doctrine/Category.orm.xml",
-		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Entity/RecursiveCategoryIterator.php",
-		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/CategoryBundle/Resources/config/routing.yml",
-		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Entity/Category.php",
 		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Entity/recursiveCategoryIterator.php",
 		"/home/andrea/webdev/sf2_sites/bivsg/app/Resources/views/base.html.twig",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/doctrine/User.orm.xml",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Entity/User.php",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Model/UserInterface.php",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/doc/index.md",
-		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Resources/doc/index.md",
-		"/home/andrea/.config/sublime-text-2/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/README.markdown",
 		"/home/andrea/webdev/sf2_sites/bivsg/README.md",
-		"/home/andrea/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
-		"/home/andrea/.config/sublime-text-2/Packages/User/MarkdownPreview.sublime-settings",
-		"/home/andrea/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
-		"/home/andrea/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
-		"/home/andrea/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
 		"/home/andrea/webdev/sf2_sites/bivsg/src/Bix/Bundle/CategoryBundle/Resources/doc/index.rst",
 		"/home/andrea/webdev/sf2_sites/bivsg/src/Acme/DemoBundle/Resources/views/Demo/index.html.twig",
 		"/home/andrea/webdev/sf2_sites/bivsg/src/Acme/DemoBundle/Resources/views/layout.html.twig",
 		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/MainBundle/Entity/Trip.php",
-		"/home/andrea/webdev/sf2_sites/bivsg/app/config/routing.yml",
 		"/home/andrea/webdev/sf2_sites/bivsg/src/Sg/CategoryBundle/Entity/User.php",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/doctrine/Group.orm.xml",
 		"/home/andrea/.config/sublime-text-2/Packages/PlainTasks/PlainTasks (Linux).sublime-settings",
@@ -462,28 +507,7 @@
 		"/home/andrea/webdev/sf2_sites/bivsg/app/config/security.yml",
 		"/home/andrea/webdev/sf2_sites/bivsg/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/FOSUserBundle.php",
 		"/home/andrea/webdev/sf2_sites/bivsg/composer.json",
-		"/home/andrea/webdev/sf2_sites/bivsg/app/config/parameters.yml.dist",
-		"/home/andrea/webdev/sf2_sites/bivsg/app/config/config_dev.yml",
-		"/home/andrea/webdev/sf2_sites/bivsg/.gitignore",
-		"/home/andrea/.mplayer/config",
-		"/home/andrea/webdev/sf2_sites/prova_sf2/src/Acme/DemoBundle/Controller/BlogController.php",
-		"/home/andrea/webdev/sf2_sites/prova_sf2/src/Acme/StoreBundle/Controller/DefaultController.php",
-		"/home/andrea/.config/sublime-text-2/Packages/Terminal/Terminal.sublime-settings",
-		"/home/andrea/.config/sublime-text-2/Packages/Terminal/Default (Linux).sublime-keymap",
-		"/home/andrea/.config/sublime-text-2/Packages/User/Terminal.sublime-settings",
-		"/home/andrea/webdev/sf2_sites/prova_sf2/src/Acme/StoreBundle/Resources/views/Default/show.html.twig",
-		"/home/andrea/.config/sublime-text-2/Packages/User/SymfonyCommander.sublime-settings",
-		"/home/andrea/.config/sublime-text-2/Packages/SymfonyCommander/SymfonyCommander.sublime-settings",
-		"/home/andrea/.config/sublime-text-2/Packages/User/Package Control.sublime-settings",
-		"/home/andrea/webdev/sf2_sites/prova_sf2/vendor/swiftmailer/swiftmailer/test-suite/lib/simpletest/packages/simpletest.org/test/package/fr/no-synchronisation.xml",
-		"/home/andrea/webdev/sf2_sites/prova_sf2/.project",
-		"/home/andrea/webdev/sf2_sites/prova_sf2/README.md",
-		"/home/andrea/fafa.html",
-		"/home/andrea/webdev/sf2_sites/prova_sf2/vendor/phpoption/phpoption/src/PhpOption/Option.php",
-		"/home/andrea/webdev/sf2_sites/prova_sf2/vendor/symfony/symfony/src/Symfony/Component/Templating/Asset/Package.php",
-		"/home/andrea/webdev/sf2_sites/prova_sf2/composer.json",
-		"/home/andrea/webdev/sf2_sites/prova_sf2/app/Resources/views/base.html.twig",
-		"/home/andrea/webdev/sf2_sites/prova_sf2/.travis.yml"
+		"/home/andrea/webdev/sf2_sites/bivsg/app/config/parameters.yml.dist"
 	],
 	"find":
 	{
@@ -502,6 +526,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"$this->class",
+			"\n",
+			"browser",
+			"chrom",
+			"browse",
 			"bianca",
 			"marinara",
 			"Marinara",
@@ -577,23 +606,22 @@
 	"groups":
 	[
 		{
-			"selected": 9,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "vendor/doctrine/common/lib/Doctrine/Common/Collections/Collection.php",
+					"file": "src/Bix/Bundle/CategoryBundle/Model/Category.php",
 					"settings":
 					{
-						"buffer_size": 8269,
+						"buffer_size": 2383,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2185,
-								2185
+								2379,
+								2379
 							]
 						],
 						"settings":
@@ -603,25 +631,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 225.0,
+						"translation.y": 1440.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/Bix/Bundle/CategoryBundle/Entity/RecursiveCategoryIterator.php",
+					"file": "src/Bix/Bundle/CategoryBundle/Model/CategoryManager.php",
 					"settings":
 					{
-						"buffer_size": 1204,
+						"buffer_size": 940,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								94,
-								94
+								854,
+								854
 							]
 						],
 						"settings":
@@ -638,18 +666,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "src/Bix/Bundle/CategoryBundle/Model/CategoryInterface.php",
+					"file": "src/Bix/Bundle/CategoryBundle/Doctrine/CategoryManager.php",
 					"settings":
 					{
-						"buffer_size": 1154,
+						"buffer_size": 3733,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								145,
-								145
+								3632,
+								3632
 							]
 						],
 						"settings":
@@ -657,6 +685,60 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2210.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/Bix/Bundle/CategoryBundle/Controller/CategoryController.php",
+					"settings":
+					{
+						"buffer_size": 1624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 414.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/Bix/Bundle/CategoryBundle/Resources/views/Category/catMenu.html.twig",
+					"settings":
+					{
+						"buffer_size": 204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								204,
+								204
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -665,82 +747,24 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "src/Bix/Bundle/CategoryBundle/Model/Category.php",
-					"settings":
-					{
-						"buffer_size": 2383,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1316,
-								1316
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1440.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/Bix/Bundle/CategoryBundle/Model/CategoryManagerInterface.php",
-					"settings":
-					{
-						"buffer_size": 2286,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1191,
-								1191
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 675.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 5,
-					"file": "src/Bix/Bundle/CategoryBundle/Model/CategoryManager.php",
+					"file": "src/Bix/Bundle/CategoryBundle/Resources/views/Category/index.html.twig",
 					"settings":
 					{
-						"buffer_size": 940,
+						"buffer_size": 278,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								907,
-								907
+								278,
+								278
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -750,23 +774,23 @@
 				},
 				{
 					"buffer": 6,
-					"file": "src/Bix/Bundle/CategoryBundle/Doctrine/CategoryManager.php",
+					"file": "src/Sg/CategoryBundle/Controller/DefaultController.php",
 					"settings":
 					{
-						"buffer_size": 3049,
+						"buffer_size": 1463,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								959,
-								959
+								485,
+								485
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -778,18 +802,18 @@
 				},
 				{
 					"buffer": 7,
-					"file": "src/Sg/CategoryBundle/Controller/DefaultController.php",
+					"file": "src/Bix/Bundle/CategoryBundle/Entity/RecursiveCategoryIterator.php",
 					"settings":
 					{
-						"buffer_size": 1463,
+						"buffer_size": 1084,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								425,
-								425
+								0,
+								0
 							]
 						],
 						"settings":
@@ -806,51 +830,25 @@
 				},
 				{
 					"buffer": 8,
-					"file": "src/Sg/CategoryBundle/Resources/views/Default/prova.html.twig",
+					"file": "src/Sg/CategoryBundle/Resources/config/routing.yml",
 					"settings":
 					{
-						"buffer_size": 497,
+						"buffer_size": 593,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								497,
-								497
+								593,
+								593
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP-Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"syntax": "Packages/YAML/YAML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "lista.TODO",
-					"settings":
-					{
-						"buffer_size": 257,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								218,
-								218
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -906,6 +904,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"doctrine",
+				"app/cache/dev/annotations/Doctrine-ORM-EntityRepository#getEntityName.cache.php"
+			],
 			[
 				"collection",
 				"vendor/doctrine/common/lib/Doctrine/Common/Collections/Collection.php"

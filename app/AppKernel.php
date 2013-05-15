@@ -24,6 +24,8 @@ class AppKernel extends Kernel
             new Sg\MainBundle\SgMainBundle(),
             new Bix\Bundle\CategoryBundle\BixCategoryBundle(),
             new Sg\CategoryBundle\SgCategoryBundle(),
+            new Acme\ProvaBundle\AcmeProvaBundle(),
+            new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

@@ -1,0 +1,7 @@
+parameters:
+#    acme_prova.example.class: Acme\ProvaBundle\Example
+
+services:
+#    acme_prova.example:
+#        class: %acme_prova.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

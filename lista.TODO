@@ -1,4 +1,5 @@
 BixCategoryBundle:
+ ☐ Scrivere il CRUD
  ☐ Il routing non è presente
  ✔ Integrato sistema categorie @done (13-04-15 17:32)
  ✔ Creare CategoryManager @done (13-04-19 10:51)
