@@ -3,17 +3,15 @@
 {% block title %}Prova Categorie{% endblock %}
 
 {% block body %}
-    {% for cat in allCat %}
-        {{ dump(cat.name) }}
-    {% endfor %}
------------------------------------
-    {% for pizzaChildren in pizzaChildrens %}
-        {{ dump(pizzaChildren.name) }}
-    {% endfor %}
+<h1>Hrrr fatto!</h1>
+Figli di pizza :
+{% for child in childs %}
+    <ul>
+    <li>{{ child.title }}</ki>
+    </ul>
+{% endfor %}
 
-    -----------------------------------
-    {% for pizzaRecursiveChildren in pizzaRecursiveChildrens %}
-        {{ dump(pizzaRecursiveChildren.name) }}
-    {% endfor %}
-
+{% for item in path %}
+    {{ item.title }} -->
+{% endfor %}
 {% endblock %}

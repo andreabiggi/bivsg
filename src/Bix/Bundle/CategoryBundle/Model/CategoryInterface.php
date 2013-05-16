@@ -11,59 +11,13 @@ namespace Bix\Bundle\CategoryBundle\Model;
 interface CategoryInterface 
 
 {
-    /**
-     * @return string
-     */
-    public function __toString();
-    
-    /**
-     * Get the category Name
-     * 
-     * @return string
-     */
-    public function getName();
-    
-    /**
-     * Set category name
-     * 
-     * @param string $name
-     * @return self
-     */
-    public function setName($name);
-    
-    /**
-     * Get the category slug
-     * 
-     * @return string
-     */
-    public function getSlug();
-    
-    /**
-     * Set category slug
-     * 
-     * @param string $slug
-     * @return self
-     */
-    public function setSlug($slug);
+    public function getId();
 
-    /**
-     * Set the category's parent
-     * @param Category $parent
-     */
-    public function setParent($parent);
+    public function setTitle($title);
 
-    /**
-     * Get childrens collections
-     * 
-     * @return ArrayCollection 
-     */
-    public function getChildrens();
+    public function getTitle();
 
-    /**
-     * Get an array of children names
-     * @return mixt
-     */
-    public function getChildrenNames();
-    
-    
+    public function setParent(Category $parent = null);
+
+    public function getParent();
 } // END interface CategoryInterface

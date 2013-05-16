@@ -2,8 +2,10 @@
 
 namespace Bix\Bundle\CategoryBundle\Model;
 
+use Doctrine\ORM\Mapping as ORM;
+use Gedmo\Mapping\Annotation as Gedmo;
 // use Doctrine\Common\Collections\Collection;
-use Doctrine\Common\Collections\ArrayCollection;
+//use Doctrine\Common\Collections\ArrayCollection;
 
 /**
 * Storage agnostic category object
@@ -12,136 +14,69 @@ use Doctrine\Common\Collections\ArrayCollection;
 */
 abstract class Category implements CategoryInterface
 {
+    /**
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue
+     */
     protected $id;
 
-    /**
-     * Category Name
-     * @var string
-     */
-    protected $name;
-
-    /**
-     * Category Slug
-     * @var string
-     */
+    
+    protected $title;
+    
+    
     protected $slug;
 
-    /**
-     * Parent Category
-     * @var self
-     */
+   
+    protected $lft;
+
+  
+    protected $lvl;
+
+
+    protected $rgt;
+
+
+    protected $root;
+
+
     protected $parent;
 
-    /**
-     * Children Category
-     * @var ArrayCollection
-     */
-    protected $childrens;
-    
-    /**
-     * Initialize children categories as ArrayCollections
-     */
-    function __construct()
-    {
-        $this->childrens = new ArrayCollection;
-    }
 
-    /**
-     * Returns the user unique id.
-     *
-     * @return mixed
-     */
+    protected $children;
+
     public function getId()
     {
         return $this->id;
     }
 
-    /**
-     * Set name
-     *
-     * @param string $name
-     * @return Category
-     */
-    public function setName($name)
+    public function setTitle($title)
     {
-        $this->name = $name;
+        $this->title = $title;
+    }
+
+    public function getTitle()
+    {
+        return $this->title;
+    }
     
-        return $this;
-    }
-
-    /**
-     * Get name
-     *
-     * @return string 
-     */
-    public function getName()
-    {
-        return $this->name;
-    }
-
-    /**
-     * Set slug
-     *
-     * @param string $slug
-     * @return Category
-     */
     public function setSlug($slug)
     {
         $this->slug = $slug;
-    
-        return $this;
     }
-
-    /**
-     * Get slug
-     *
-     * @return string 
-     */
+    
     public function getSlug()
     {
         return $this->slug;
     }
 
-    public function __toString()
+    public function setParent(Category $parent = null)
     {
-        return $this->name;
+        $this->parent = $parent;    
     }
 
-    /**
-     * Get childrens collections
-     * 
-     * @return ArrayCollection 
-     */
-    public function getChildrens()
+    public function getParent()
     {
-        return $this->childrens ?: $this->childrens = new ArrayCollection;
+        return $this->parent;   
     }
-
-    /**
-     * Get an array of children names
-     * @return mixt
-     */
-    public function getChildrenNames()
-    {
-        $names = array();
-        foreach ($this->getChildrens() as $children) {
-            $names[] = $children->getName();
-        }
-
-        return $names;
-    }
-
-    /**
-     * Set the category's parent
-     * 
-     * @param Category $parent
-     */
-    public function setParent($parent)
-    {
-        $this->parent = $parent;
-
-        return $this;
-    }
-
-
 }

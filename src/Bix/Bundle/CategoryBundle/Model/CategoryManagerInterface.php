@@ -94,5 +94,5 @@ interface CategoryManagerInterface
      * @param  CategoryInterface $category
      * @return ArrayCollection
      */
-    public function getChildrensOf(CategoryInterface $category);
+    public function getChildrensOf(CategoryInterface $category, $direct, $sortBy);
 } 

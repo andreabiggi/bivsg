@@ -4,39 +4,36 @@ namespace Sg\CategoryBundle\Entity;
 
 use Bix\Bundle\CategoryBundle\Entity\Category as BaseCategory;
 use Doctrine\ORM\Mapping as ORM;
-use Doctrine\Common\Collections\ArrayCollection;
+use Gedmo\Mapping\Annotation as Gedmo;
+//use Doctrine\Common\Collections\ArrayCollection;
 
 /**
- * @ORM\Entity
+ * @Gedmo\Tree(type="nested")
  * @ORM\Table(name="category")
+ * use repository for handy tree functions
+ * @ORM\Entity(repositoryClass="Gedmo\Tree\Entity\Repository\NestedTreeRepository")
  */
 class Category extends BaseCategory
 {
-    /**
+        /**
+     * @ORM\Column(name="id", type="integer")
      * @ORM\Id
-     * @ORM\Column(type="integer")
-     * @ORM\GeneratedValue(strategy="AUTO")
+     * @ORM\GeneratedValue
      */
     protected $id;
+    
+    /**
+     * @Gedmo\TreeParent
+     * @ORM\ManyToOne(targetEntity="Category", inversedBy="children")
+     * @ORM\JoinColumn(name="parent_id", referencedColumnName="id", onDelete="CASCADE")
+     */
+    protected $parent;
 
     /**
      * @ORM\OneToMany(targetEntity="Category", mappedBy="parent")
-     **/
-    protected $childrens;
-
-    /**
-     * @ORM\ManyToOne(targetEntity="Category", inversedBy="childrens")
-     * @ORM\JoinColumn(name="parent_id", referencedColumnName="id")
-     **/
-    protected $parent;
-    
-
-    public function __construct()
-    {
-        $this->childrens = new ArrayCollection();
-        parent::__construct();
-        // your own logic
-    }
+     * @ORM\OrderBy({"lft" = "ASC"})
+     */
+    protected $children;
 
     /**
      * -------------------------------------------------------------------

@@ -43,6 +43,32 @@ class CategoryManager extends BaseCategoryManager
         $metadata = $em->getClassMetadata($class);
         $this->class = $metadata->getName();
     }
+    
+    /**
+     * Create a new category
+     * 
+     * @param string $title
+     * @param string $slug
+     * @param Category $parent
+     * @return Category
+     * @throws \Exception
+     */
+    public function newCategory($title, $slug, $parent = null)
+    {
+        if ($parent instanceof $this->class) {
+            $cat = $this->createCategory();
+            $cat->setTitle($title);
+            $cat->setSlug($slug);
+            $cat->setParent($parent);
+
+            $this->entityManager->persist($cat);
+            $this->entityManager->flush();
+
+            return $cat;
+        } else {
+            throw new \Exception('$parent must be a Category Object');
+        }
+    }
 
     /**
      * {@inheritDoc}
@@ -72,16 +98,6 @@ class CategoryManager extends BaseCategoryManager
     /**
      * {@inheritDoc}
      */
-    public function findCategoryCollectionBy(array $criteria)
-    {
-        //******************************************
-        $cat = $this->repository->findBy($criteria);
-        return new Collection($cat);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
     public function findCategories()
     {
         return $this->repository->findAll();
@@ -105,58 +121,35 @@ class CategoryManager extends BaseCategoryManager
             $this->entityManager->flush();
         }
     }
-
+    
     /**
-     * The first Childrens of $category
+     * Get the childs of category recursively or not
+     * 
+     * @param \Bix\Bundle\CategoryBundle\Model\CategoryInterface $category
+     * @param bool $direct
+     * @param string $sortBy
+     * @return array of Category
      */
-    public function getChildrensOf(CategoryInterface $category)
+    public function getChildrensOf(CategoryInterface $category, $direct = TRUE, $sortBy = null)
     {
-        return $category->getChildrens();
+        return $this->repository->children($category, $direct, $sortBy);
     }
-
+    
     /**
-     * Get the category roots
-     * @return Category
+     * Count childrens of category recursively or not
+     * 
+     * @param \Bix\Bundle\CategoryBundle\Model\CategoryInterface $category
+     * @param bool $direct if TRUE returns the direct childrens; if FALSE return all childrens recursively
+     * @return int
      */
-    public function getRoots()
+    public function countChildrens(CategoryInterface $category, $direct)
     {
-        return $this->repository->findByParent(NULL);
+        return $this->repository->childCount($category, $direct);
     }
-
-    public function hasChildren(CategoryInterface $category)
+    
+    public function getPath(CategoryInterface $category)
     {
-        if ($category->getChildrens()->isEmpty()) {
-            return FALSE;
-        } else {
-            return TRUE;
-        }
-    }
-
-    public function buildCategoryList()
-    {
-        $string = '<ul>';
-        $roots = $this->getRoots();
-        foreach ($roots as $root) {
-            $string .= '<li>' . $root->getName() . '</li>';
-            if ($this->hasChildren($root)) {
-                // Get the childrens of root
-                $childrens = $this->getChildrensOf($root);
-                $string .= '<ul>';
-                foreach ($childrens as $children) {
-                    $string .= '<li>' . $children->getName() . '</li>';
-                }
-                $string .= '</ul>';
-            }
-        }
-        $string .= '</ul>';
-        return $string;
-    }
-
-    public function countLevels()
-    {
-        $count = 0;
-        
-        return $count;
+        return $this->repository->getPath($category);
     }
 
 }

@@ -15,38 +15,20 @@ class DefaultController extends Controller
 
     public function provaAction()
     {
-
-
+        /* @var $cm \Bix\Bundle\CategoryBundle\Doctrine\CategoryManager */
         $cm = $this->get('bix_category.category_manager');
-
-        $parent = $cm->findCategoryBySlug('margherita');
-
-        $bianca = $cm->createCategory();
-        $bianca->setName('bianca');
-        $bianca->setSlug('bianca');
-        $bianca->setParent($parent);
-        $cm->updateCategory($bianca);
-
-        $rossa = $cm->createCategory();
-        $rossa->setName('rossa');
-        $rossa->setSlug('rossa');
-        $rossa->setParent($parent);
-
-        $cm->updateCategory($rossa, true);
-
-        $allCat = $cm->findCategories();
-
         $pizza = $cm->findCategoryBySlug('pizza');
-        $pizzaChildrens = $cm->getChildrensOf($pizza);
-
-        $pizza = $cm->findCategoryBySlug('pizza');
-
-        $pizzaRecursiveChildrens = $cm->getChildrensRecursiveOf($pizza);
-
-        return $this->render('SgCategoryBundle:Default:prova.html.twig', array(
-                'allCat' => $allCat,
-                'pizzaChildrens' => $pizzaChildrens,
-                'pizzaRecursiveChildrens' => $pizzaRecursiveChildrens,
-            ));
+        $margherita = $cm->findCategoryBySlug('margherita');
+        $bianca = $cm->findCategoryBySlug('bianca');
+        
+        $childs = $cm->getChildrensOf($pizza, FALSE, 'title');
+        
+        $path = $cm->getPath($bianca);
+        
+        return $this->render('SgCategoryBundle:Default:prova.html.twig', 
+                array(
+                    'childs' => $childs,
+                    'path' => $path
+                ));
     }
 }
